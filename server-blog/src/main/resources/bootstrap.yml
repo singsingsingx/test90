@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    config:
+      profile: 
+      label: master
+      uri: http://localhost:8888/
+  application:
+    name: server-blog
